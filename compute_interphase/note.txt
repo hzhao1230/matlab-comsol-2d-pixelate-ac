@@ -1,0 +1,3 @@
+create model with fillers, interphase and matrix entities. 
+
+see comsol_create_structure_existing_grid_IP for configs
