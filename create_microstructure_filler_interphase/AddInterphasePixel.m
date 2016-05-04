@@ -48,7 +48,7 @@ for i=1:m
                     Grid(i,j)=2;
                 end
                 % check if distance is within thick interphase thickness
-                if Grid(i,j)==0 && d<=mIP2
+                if Grid(i,j)==0 && d<=mIP2+mIP1
                     Grid(i,j)=3;
                 end
             end
